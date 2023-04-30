@@ -1,0 +1,66 @@
+.customcontainer {
+  width: 40% !important;
+  height: fit-content !important;
+  padding: 3%;
+  border: 0.5px solid black;
+  border-radius: 5%;
+  background-color: #fbf3ebce;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+.formDiv {
+  width: 90%;
+  vertical-align: middle;
+  margin-top: 7%;
+}
+.mainLoginDiv {
+  height: 100vh !important;
+  background: url("../images/gunam1.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  height: 100%;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.gunam_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 8%;
+  width: 70%;
+}
+
+/*-----------------------------NavBar----------------------------------- */
+
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar-item {
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 5%;
+  margin-right: 20px;
+  background-color: rgb(255, 255, 255);
+}
